@@ -4,8 +4,8 @@ import { useState, useEffect } from "react";
 const Counter = () => {
   let [count, setCount] = useState<number>(0);
 
-// State and Lifecycle
-// ===================  
+// useEffect Hook (State and Lifecycle)
+// ====================================  
 // useEffect (Example 1)
   useEffect(() => {
     console.log("useEffet Example 1: any update / runs in each lifecycle")

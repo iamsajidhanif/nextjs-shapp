@@ -1,4 +1,3 @@
-
 import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
@@ -6,8 +5,13 @@ import styles from "@/styles/Home.module.css";
 
 import Link from "next/link";
 import { Header, Footer } from "../components/index";
+import { useRef } from "react";
 
 export default function Home() {
+  // useFef Hook:
+  const h1Ref = useRef<any>(null);
+  console.log("h1Ref", h1Ref);
+
   return (
     <>
       <Head>
@@ -16,24 +20,16 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      
       <main className={styles.main}>
         {/* <div className={styles.description}> */}
-          {/* <Header /> */}
-        <h1>Welcome to SajidHanifApp</h1>
-        <Link href="/services">
-          Our Services
-        </Link>
-        <Link href="/about">
-          About Us
-        </Link>
-        <Link href="/contact">
-          Contact Us
-        </Link>
-        <Link href="/blog">
-          Blog Page
-          </Link>
-          {/* <Footer /> */}
+        {/* <Header /> */}
+        {/* useRef in h1 heading: */}
+        <h1 ref={h1Ref}>Welcome to SajidHanifApp</h1>
+        <Link href="/services">Our Services</Link>
+        <Link href="/about">About Us</Link>
+        <Link href="/contact">Contact Us</Link>
+        <Link href="/blog">Blog Page</Link>
+        {/* <Footer /> */}
         {/* </div> */}
       </main>
     </>
