@@ -7,7 +7,7 @@ export default function services() {
     <>
       <center>
         <br />
-        <h2>Services</h2>
+        <h2>Our Services</h2>
         <br />
         <Counter />
         <br />
