@@ -36,9 +36,6 @@ export default function about() {
             <Link href="/blog">Blog</Link>
           </li>
         </ul>
-        {/* <button onClick={() => router.back()}> */}
-        {/* <h2>Back</h2>
-        </button> */}
       </main>
     </>
   );

@@ -20,18 +20,25 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.main}>
-        {/* <div className={styles.description}> */}
-        {/* <Header /> */}
-        {/* useRef in h1 heading: */}
+      {/* <main className={styles.main}> */}
+      {/* <div className={styles.description}> */}
+      {/* <Header /> */}
+      {/* useRef in h1 heading: */}
+      <center>
         <h1 ref={h1Ref}>Welcome to SajidHanifApp</h1>
+        <Link href="/login">Login</Link>
+        <br />
         <Link href="/services">Services</Link>
+        <br />
         <Link href="/about">About</Link>
+        <br />
         <Link href="/contact">Contact</Link>
+        <br />
         <Link href="/blog">Blog</Link>
-        {/* <Footer /> */}
-        {/* </div> */}
-      </main>
+      </center>
+      {/* <Footer /> */}
+      {/* </div> */}
+      {/* </main> */}
     </>
   );
 }

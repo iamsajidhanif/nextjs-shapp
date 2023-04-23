@@ -43,9 +43,9 @@ const Counter = () => {
       <h1>Counter App</h1>
       <h2>Count: {count}</h2>
       <br />
-      <button onClick={incrementCount}><h3>Increment (+)</h3></button>&nbsp;&nbsp;
-      <button onClick={decrementCount}><h3>Decrement (-)</h3></button>&nbsp;&nbsp;
-      <button onClick={resetCount}><h3>Reset</h3></button>
+      <button onClick={incrementCount}>Increment (+)</button>&nbsp;&nbsp;
+      <button onClick={decrementCount}>Decrement (-)</button>&nbsp;&nbsp;
+      <button onClick={resetCount}>Reset</button>
     </>
   );
 };

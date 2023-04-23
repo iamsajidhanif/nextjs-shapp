@@ -36,9 +36,6 @@ export default function blog() {
             <Link href="/contact">Contact</Link>
           </li>
         </ul>
-        {/* <button onClick={() => router.back()}> */}
-        {/* <h2>Back</h2>
-        </button> */}
       </main>
     </>
   );
