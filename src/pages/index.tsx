@@ -34,7 +34,10 @@ export default function Home() {
         <br />
         <Link href="/contact">Contact</Link>
         <br />
-        <Link href="/blog">Blog</Link>
+        {/* <Link href="sh-app\src\pages\blog\blog.tsx">Blog</Link> */}
+        <Link href="/blog/[blog_slug].tsx">Blog</Link>
+        <br />
+        <Link href="/gallery">Gallery</Link>
       </center>
       {/* <Footer /> */}
       {/* </div> */}

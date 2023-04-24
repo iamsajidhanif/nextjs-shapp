@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import Back from "../components/Back";
+import Link from 'next/link'
 import { Button, Checkbox, Form, Input } from "antd";
 
 export default function Login() {
@@ -32,10 +33,10 @@ export default function Login() {
               autoComplete="off"
             >
               <Form.Item
-                label="Username"
-                name="username"
+                label="Email"
+                name="email"
                 rules={[
-                  { required: true, message: "Please input your username!" },
+                  { required: true, message: "Please input your email!", type: 'email' },
                 ]}
               >
                 <Input />
@@ -61,11 +62,14 @@ export default function Login() {
 
               <Form.Item wrapperCol={{ offset: 8, span: 16 }}>
                 <Button type="primary" htmlType="submit">
-                  Submit
+                  Login
                 </Button>
                 &nbsp;&nbsp;&nbsp;
-                <Back />
-              </Form.Item>
+              <Back />
+        
+            </Form.Item>
+            Don't have an Account? <Link href={'/register'}>Register</Link> | &nbsp;
+            <Link href={'/'}>Home</Link>
             </Form>
           </div>
         </div>

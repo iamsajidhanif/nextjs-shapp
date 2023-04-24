@@ -33,7 +33,10 @@ export default function contact() {
             <Link href="/about">About</Link>
           </li>
           <li>
-            <Link href="/blog">Blog</Link>
+          <Link href="/blog/[blog_slug].tsx">Blog</Link>
+          </li>
+          <li>
+            <Link href="/gallery">Gallery</Link>
           </li>
         </ul>
         {/* <button onClick={() => router.back()}> */}
