@@ -27,7 +27,7 @@ const Todo = () => {
     <>
       <center>
         <br />
-        <h1>Todo List App</h1>
+        <h2 className="app-color">Todo List App</h2>
         <br />
         <input
           placeholder="Input task"

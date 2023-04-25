@@ -1,3 +1,19 @@
+.app-title{
+  color: green;
+}
+
+.app-color{
+  color: rgb(7, 91, 119);
+}
+
+.count-color{
+  color: deeppink;
+}
+
+.h1-color{
+  color: green;
+}
+
 .auth-page{
   height: 97vh;
   display: flex;

@@ -21,7 +21,7 @@ export default function Login() {
           <div className="form-card">
             <br />
           <br />
-          <h1>Login</h1>
+          <h1 className="app-color">Login</h1>
             <Form
               name="basic"
               labelCol={{ span: 8 }}
@@ -63,7 +63,7 @@ export default function Login() {
               <Form.Item wrapperCol={{ offset: 8, span: 16 }}>
                 <Button type="primary" htmlType="submit">
                   Login
-                </Button>
+              </Button>
                 &nbsp;&nbsp;&nbsp;
               <Back />
         

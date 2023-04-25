@@ -2,10 +2,10 @@ import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
-
 import Link from "next/link";
 import { Header, Footer } from "../components/index";
 import { useRef } from "react";
+import Navbar from '../components/Navbar'
 
 export default function Home() {
   // useFef Hook:
@@ -24,13 +24,38 @@ export default function Home() {
       {/* <div className={styles.description}> */}
       {/* <Header /> */}
       {/* useRef in h1 heading: */}
+      <Navbar
+        title="SajidHanifApp"
+        servicesText="Services"
+        serviceOne="Counter App"
+        serviceTwo="Todo List App"
+        moreServices="More Services"
+        aboutText="About"
+        contactText="Contact"
+        blogText="Blog"
+        galleryText="Gallery"
+      />
       <center>
-        <h1 ref={h1Ref}>Welcome to SajidHanifApp</h1>
+        <h1 className="h1-color" ref={h1Ref}>Welcome to SajidHanifApp</h1>
         <Link href="/login">Login</Link>
         <br />
-        <Link href="/services">Services</Link>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
         <br />
         <Link href="/about">About</Link>
+        <br />
+        <Link href="/services">Services</Link>
         <br />
         <Link href="/contact">Contact</Link>
         <br />

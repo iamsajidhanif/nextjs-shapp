@@ -40,8 +40,8 @@ const Counter = () => {
 
   return (
     <>
-      <h1>Counter App</h1>
-      <h2>Count: {count}</h2>
+      <h2 className="app-color">Counter App</h2>
+      <h3 className="count-color">Count: {count}</h3>
       <br />
       <button onClick={incrementCount}>Increment (+)</button>&nbsp;&nbsp;
       <button onClick={decrementCount}>Decrement (-)</button>&nbsp;&nbsp;

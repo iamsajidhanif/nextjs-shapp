@@ -34,7 +34,7 @@ export default function Register() {
         <div className="form-card">
           <br />
           <br />
-          <h1>Register</h1>
+          <h1 className="app-color">Register</h1>
           <Form
             name="basic"
             labelCol={{ span: 8 }}
