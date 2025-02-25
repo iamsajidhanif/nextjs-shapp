@@ -25,7 +25,7 @@ export default function Home() {
       {/* <Header /> */}
       {/* useRef in h1 heading: */}
       <Navbar
-        title="SajidHanifApp"
+        title="SajidHanif"
         servicesText="Services"
         serviceOne="Counter App"
         serviceTwo="Todo List App"
