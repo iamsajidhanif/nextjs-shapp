@@ -36,7 +36,7 @@ export default function Home() {
         galleryText="Gallery"
       />
       <center>
-        <h1 className="h1-color" ref={h1Ref}>Welcome to SajidHanifApp</h1>
+        <h1 className="h1-color" ref={h1Ref}>Welcome to SajidHanif</h1>
         <Link href="/login">Login</Link>
         <br />
         <br />
